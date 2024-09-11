@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>JobSphere- Job Portal Website</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap" rel="stylesheet">
+    
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar Start -->
+        <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+            <a href="portal.html" class="navbar-brand d-flex align-items-center text-center py-0 px-4 px-lg-5">
+                <h1 class="m-0 text-primary">Job<span>Sphere</span></h1>
+            </a>
+            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-4 p-lg-0">
+                    <a href="portal.html" class="nav-item nav-link active">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <div class="nav-item dropdown">
+                        <a href="job-list.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Jobs</a>
+                        <div class="dropdown-menu rounded-0 m-0">
+                            <a href="job-list.html" class="dropdown-item">Job List</a>
+                            <a href="job-detail.html" class="dropdown-item">Job Detail</a>
+                        </div>
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a href="category.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                        <div class="dropdown-menu rounded-0 m-0">
+                            <a href="category.html" class="dropdown-item">Job Category</a>
+                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    <a href="index.html" class="nav-item nav-link">Login</a>
+                </div>
+                <a href="resume.html" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Build a resume<i class="fa fa-arrow-right ms-3"></i></a>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+
+        <!-- Carousel Start -->
+        <div class="container-fluid p-0">
+            <div class="owl-carousel header-carousel position-relative">
+                <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="https://thumbs.dreamstime.com/b/text-sign-showing-re-hiring-conceptual-photo-advertising-employment-workforce-placement-new-job-woman-wear-formal-business-159048722.jpg" alt="">
+                    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(43, 57, 64, .5);">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-10 col-lg-8">
+                                    <h1 class="display-3 text-white animated slideInDown mb-4">Your Gateway to the Perfect Job and Top Talent</h1>
+                                    <p class="fs-5 fw-medium text-white mb-4 pb-2">Discover your dream job or find the ideal candidate with our streamlined job portal. Whether you’re looking for a new opportunity or seeking top-tier talent, we connect the right people to the right roles with ease and efficiency.</p>
+                                    <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Search A Job</a>
+                                    <a href="" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Find A Talent</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="https://thumbs.dreamstime.com/b/text-sign-showing-re-hiring-conceptual-photo-advertising-employment-workforce-placement-new-job-woman-wear-formal-business-159048722.jpg" alt="">
+                    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(43, 57, 64, .5);">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-10 col-lg-8">
+                                    <h1 class="display-3 text-white animated slideInDown mb-4">Your Gateway to the Perfect Job and Top Talent</h1>
+                                    <p class="fs-5 fw-medium text-white mb-4 pb-2">Discover your dream job or find the ideal candidate with our streamlined job portal. Whether you’re looking for a new opportunity or seeking top-tier talent, we connect the right people to the right roles with ease and efficiency.</p>
+                                    <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Search A Job</a>
+                                    <a href="" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Find A Talent</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="https://media.licdn.com/dms/image/C4D12AQFi4yZvoIWupw/article-cover_image-shrink_720_1280/0/1520245690181?e=2147483647&v=beta&t=tKYwNZxeVVDIwUTZXxVbb0A9oxl2ZK0iVEOiPYOwGE4" alt="">
+                    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(43, 57, 64, .5);">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-10 col-lg-8">
+                                    <h1 class="display-3 text-white animated slideInDown mb-4">Your Gateway to the Perfect Job and Top Talent</h1>
+                                    <p class="fs-5 fw-medium text-white mb-4 pb-2">Discover your dream job or find the ideal candidate with our streamlined job portal. Whether you’re looking for a new opportunity or seeking top-tier talent, we connect the right people to the right roles with ease and efficiency.</p>
+                                    <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Search A Job</a>
+                                    <a href="" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Find A Talent</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="https://aithority.com/wp-content/uploads/2020/07/CPS-NETWORK-launches-new-job-portal-website-for-professional-membership-organizations.jpg" alt="">
+                    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(43, 57, 64, .5);">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-10 col-lg-8">
+                                    <h1 class="display-3 text-white animated slideInDown mb-4">Your Gateway to the Perfect Job and Top Talent</h1>
+                                    <p class="fs-5 fw-medium text-white mb-4 pb-2">Discover your dream job or find the ideal candidate with our streamlined job portal. Whether you’re looking for a new opportunity or seeking top-tier talent, we connect the right people to the right roles with ease and efficiency.</p>
+                                    <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Search A Job</a>
+                                    <a href="" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Find A Talent</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+ 
+
+        <!-- Search Start -->
+        <div class="container-fluid bg-primary mb-5 wow fadeIn" data-wow-delay="0.1s" style="padding: 35px;">
+            <div class="container">
+                <div class="row g-2">
+                    <div class="col-md-10">
+                        <div class="row g-2">
+                            <div class="col-md-4">
+                                <input type="text" class="form-control border-0" placeholder="Keyword" />
+                            </div>
+                            <div class="col-md-4">
+                                <select class="form-select border-0">
+                                    <option selected>Category</option>
+                                    <option value="1">technnical</option>
+                                    <option value="2">non-technical</option>
+                                    <option value="3">tester</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4">
+                                <select class="form-select border-0">
+                                    <option selected>Location</option>
+                                    <option value="1">new york </option>
+                                    <option value="2">los angles</option>
+                                    <option value="3">mexico</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <button class="btn btn-dark border-0 w-100">Search</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Search End -->
+
+
+        <!-- Category Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <h1 class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">Category</h1>
+                <div class="row g-4">
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <a class="cat-item rounded p-4" href="">
+                            <i class="fa fa-3x fa-mail-bulk text-primary mb-4"></i>
+                            <h6 class="mb-3">Marketing</h6>
+                            <p class="mb-0">23 Vacancy</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <a class="cat-item rounded p-4" href="">
+                            <i class="fa fa-3x fa-headset text-primary mb-4"></i>
+                            <h6 class="mb-3">Customer Service</h6>
+                            <p class="mb-0">13 Vacancy</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <a class="cat-item rounded p-4" href="">
+                            <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>
+                            <h6 class="mb-3">Human Resource</h6>
+                            <p class="mb-0">90 Vacancy</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <a class="cat-item rounded p-4" href="">
+                            <i class="fa fa-3x fa-tasks text-primary mb-4"></i>
+                            <h6 class="mb-3">Project Management</h6>
+                            <p class="mb-0">56 Vacancy</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <a class="cat-item rounded p-4" href="">
+                            <i class="fa fa-3x fa-chart-line text-primary mb-4"></i>
+                            <h6 class="mb-3">Business Development</h6>
+                            <p class="mb-0">50 Vacancy</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <a class="cat-item rounded p-4" href="">
+                            <i class="fa fa-3x fa-hands-helping text-primary mb-4"></i>
+                            <h6 class="mb-3">Sales & Communication</h6>
+                            <p class="mb-0">1 Vacancy</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <a class="cat-item rounded p-4" href="">
+                            <i class="fa fa-3x fa-book-reader text-primary mb-4"></i>
+                            <h6 class="mb-3">Teaching & Education</h6>
+                            <p class="mb-0">40 Vacancy</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <a class="cat-item rounded p-4" href="">
+                            <i class="fa fa-3x fa-drafting-compass text-primary mb-4"></i>
+                            <h6 class="mb-3">Design & Creative</h6>
+                            <p class="mb-0">120 Vacancy</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Category End -->
+
+
+        <!-- About Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="row g-0 about-bg rounded overflow-hidden">
+                            <div class="col-6 text-start">
+                                <img class="img-fluid w-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp9KR-lNrACpfPuYs4S2fiE4i_RBV3iOmVrSm7xSS_OAdvi7EZJdc7qkQUE8hL1tra8KQ&usqp=CAU">
+                            </div>
+                            <div class="col-6 text-start">
+                                <img class="img-fluid" src="https://media.istockphoto.com/id/1349094945/photo/human-using-a-computer-laptop-for-searching-for-job-and-fill-out-personal-data-on-job-website.jpg?s=612x612&w=0&k=20&c=nVCY302pin29eP1rN0eBGstQN3WF4YQTWvZ4TvAs21g=" style="width: 85%; margin-top: 15%;">
+                            </div>
+                            <div class="col-6 text-end">
+                                <img class="img-fluid" src="https://media.istockphoto.com/id/1097271132/photo/group-of-unrecognizable-candidates-waiting-for-a-job-interview.jpg?s=612x612&w=0&k=20&c=y6lP7VvRZR_Etbsz5SeHQ6rpJw3CPMUs0mnaELaqYxY=" style="width: 85%;">
+                            </div>
+                            <div class="col-6 text-end">
+                                <img class="img-fluid w-100" src="https://media.istockphoto.com/id/949182974/photo/male-manager-shaking-hands-with-female-applicant.jpg?s=612x612&w=0&k=20&c=QCjfJPKUckGpX9FdZU-8bw2szQuxa2_CPATyCBAazWM=">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                        <h1 class="mb-4">Bridging the gap between skilled professionals and their ideal careers.</h1>
+                        <p class="mb-4">We connect skilled professionals with career opportunities that match their talents and goals. Our platform bridges the gap between top talent and companies looking for the perfect fit. Simplifying job searches and talent acquisition for lasting success.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+
+        
+        <!-- Jobs Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <h1 class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">Job Listing</h1>
+                <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.3s">
+                    <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5">
+                    </ul>
+                    <div class="tab-content">
+                        <div id="tab-1" class="tab-pane fade show p-0 active">
+                            <div class="job-item p-4 mb-4">
+                                <div class="row g-4">
+                                    <div class="col-sm-12 col-md-8 d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid border rounded" src="https://cdn.dribbble.com/users/1086247/screenshots/10852745/media/bebbd9aa60a3eb29b1c68a4e9990cd39.png?resize=400x300&vertical=center" alt="" style="width: 80px; height: 80px;">
+                                        <div class="text-start ps-4">
+                                            <h5 class="mb-3">Front-end Web Developer</h5>
+                                            <span class="text-truncate me-3"><i class="fa fa-map-marker-alt text-primary me-2"></i>New York</span>
+                                            <span class="text-truncate me-3"><i class="far fa-clock text-primary me-2"></i>Full Time</span>
+                                            <span class="text-truncate me-0"><i class="far fa-money-bill-alt text-primary me-2"></i>$123 - $456</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 d-flex flex-column align-items-start align-items-md-end justify-content-center">
+                                        <div class="d-flex mb-3">
+                                            <a class="btn btn-primary" href="">Apply Now</a>
+                                        </div>
+                                        <small class="text-truncate"><i class="far fa-calendar-alt text-primary me-2"></i>Date Line: 05 Jan, 2045</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="job-item p-4 mb-4">
+                                <div class="row g-4">
+                                    <div class="col-sm-12 col-md-8 d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid border rounded" src="https://nuevesolutions.com/wp-content/uploads/2019/09/nuevesolutions_logo.png" alt="" style="width: 80px; height: 80px;">
+                                        <div class="text-start ps-4">
+                                            <h5 class="mb-3">Senior Python Developer</h5>
+                                            <span class="text-truncate me-3"><i class="fa fa-map-marker-alt text-primary me-2"></i> Beacon </span>
+                                            <span class="text-truncate me-3"><i class="far fa-clock text-primary me-2"></i>Part Time</span>
+                                            <span class="text-truncate me-0"><i class="far fa-money-bill-alt text-primary me-2"></i>$123 - $456</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 d-flex flex-column align-items-start align-items-md-end justify-content-center">
+                                        <div class="d-flex mb-3">
+                                            <a class="btn btn-primary" href="">Apply Now</a>
+                                        </div>
+                                        <small class="text-truncate"><i class="far fa-calendar-alt text-primary me-2"></i>Date Line: 20 Feb, 2045</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="job-item p-4 mb-4">
+                                <div class="row g-4">
+                                    <div class="col-sm-12 col-md-8 d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid border rounded" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIZUAi0RXgOv1W59IWh_n3FGStlqpO9_ALAA&s" alt="" style="width: 80px; height: 80px;">
+                                        <div class="text-start ps-4">
+                                            <h5 class="mb-3">Product Designer</h5>
+                                            <span class="text-truncate me-3"><i class="fa fa-map-marker-alt text-primary me-2"></i> Beacon </span>
+                                            <span class="text-truncate me-3"><i class="far fa-clock text-primary me-2"></i>Part Time</span>
+                                            <span class="text-truncate me-0"><i class="far fa-money-bill-alt text-primary me-2"></i>$120 - $450</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 d-flex flex-column align-items-start align-items-md-end justify-content-center">
+                                        <div class="d-flex mb-3">
+                                            <a class="btn btn-primary" href="">Apply Now</a>
+                                        </div>
+                                        <small class="text-truncate"><i class="far fa-calendar-alt text-primary me-2"></i>Date Line: 15 Apr, 2045</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="job-item p-4 mb-4">
+                                <div class="row g-4">
+                                    <div class="col-sm-12 col-md-8 d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid border rounded" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCG_FP67fEkQP7exAC7yiPqvA3B9X8gGJ1bf8s9o4MR4qOD-n6ANoNC6S8zlM_pNTQaZA&usqp=CAU" alt="" style="width: 80px; height: 80px;">
+                                        <div class="text-start ps-4">
+                                            <h5 class="mb-3">Creative Director</h5>
+                                            <span class="text-truncate me-3"><i class="fa fa-map-marker-alt text-primary me-2"></i>Los Angeles</span>
+                                            <span class="text-truncate me-3"><i class="far fa-clock text-primary me-2"></i>Full Time</span>
+                                            <span class="text-truncate me-0"><i class="far fa-money-bill-alt text-primary me-2"></i>$350 - $660</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 d-flex flex-column align-items-start align-items-md-end justify-content-center">
+                                        <div class="d-flex mb-3">
+                                            <a class="btn btn-primary" href="">Apply Now</a>
+                                        </div>
+                                        <small class="text-truncate"><i class="far fa-calendar-alt text-primary me-2"></i>Date Line: 05 Mar, 2045</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="job-item p-4 mb-4">
+                                <div class="row g-4">
+                                    <div class="col-sm-12 col-md-8 d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid border rounded" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-cf9bPbrkwgi4ut6PScrrj9ZoZk3ic8G82A&s" alt="" style="width: 80px; height: 80px;">
+                                        <div class="text-start ps-4">
+                                            <h5 class="mb-3">Wordpress Developer</h5>
+                                            <span class="text-truncate me-3"><i class="fa fa-map-marker-alt text-primary me-2"></i>San Francisco</span>
+                                            <span class="text-truncate me-3"><i class="far fa-clock text-primary me-2"></i>Part Time</span>
+                                            <span class="text-truncate me-0"><i class="far fa-money-bill-alt text-primary me-2"></i>$120 - $220</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 d-flex flex-column align-items-start align-items-md-end justify-content-center">
+                                        <div class="d-flex mb-3">
+                                            <a class="btn btn-primary" href="">Apply Now</a>
+                                        </div>
+                                        <small class="text-truncate"><i class="far fa-calendar-alt text-primary me-2"></i>Date Line: 22 Sep, 2045</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                  
+                       
+                            
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Jobs End -->
+
+
+          <!-- Testimonial start -->
+          <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container">
+                <h1 class="text-center mb-5">Reviews</h1>
+                <div class="owl-carousel testimonial-carousel">
+                    <div class="testimonial-item bg-light rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p>  I was struggling to find the right candidates for my marketing team until I found this job portal. The site is user-friendly, and I was able to filter applicants based on my exact needs. We hired two exceptional marketers within weeks, and they’ve already made a significant impact on our business.</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded" src="https://img.freepik.com/free-photo/confident-handsome-guy-posing-against-white-wall_176420-32936.jpg?t=st=1724865131~exp=1724868731~hmac=a7631f1ddafc9e1eda48aba010d12b6a8609531ce9c3130c7b7e948c7250aa4c&w=996" style="width: 50px; height: 50px;">
+                            <div class="ps-3">
+                                <h5 class="mb-1">John S.</h5>
+                                <small>Marketing Manager</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-light rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p> As a software engineer, I’m constantly on the lookout for new opportunities. This job portal has been a game-changer for me. The site’s algorithm matched me with jobs that fit my skills perfectly, and the application process was seamless. I landed my dream job within a month!"
+                        </p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded" src="https://img.freepik.com/free-photo/cheerful-curly-business-girl-wearing-glasses_176420-206.jpg?w=996&t=st=1724865193~exp=1724865793~hmac=5f7ba959a8816ae908ea6bafc2714a0ed73ef44a13873c2b4a26f2c731bbaedf" style="width: 50px; height: 50px;">
+                            <div class="ps-3">
+                                <h5 class="mb-1">Emma R.</h5>
+                                <small>Software Engineer</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-light rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p> I’ve used several job portals, but this one stands out because of its detailed applicant profiles and the ease of managing job postings. It has made my job as an HR specialist much easier, and I’ve been able to connect with high-quality candidates quickly.</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded" src="https://img.freepik.com/premium-photo/man-with-glasses-gray-suit-with-white-shirt-gray-jacket_1308157-214466.jpg?w=740" style="width: 50px; height: 50px;">
+                            <div class="ps-3">
+                                <h5 class="mb-1">Michael T.</h5>
+                                <small>HR Specialist</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-light rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p>Job hunting can be overwhelming, but this portal made the process straightforward. I appreciated the personalized job recommendations and the ability to track my application status. Thanks to this site, I’m now working with a fantastic company that values my expertise.</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded" src="https://img.freepik.com/premium-photo/perfect-man-portrait-happy-fashionable-handsome-man_1109459-2912.jpg?w=740" style="width: 50px; height: 50px;">
+                            <div class="ps-3">
+                                <h5 class="mb-1">David K.</h5>
+                                <small>Data Scientist</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+    <!-- footer starts -->
+    <footer>
+        <div class="footer-wrapper">
+         <h3>JOBSPHERE</h3>
+         <p>An online platform where job seekers can find and apply for jobs while employers can post vacancies and search for candidates.</p>
+         <div class="social-media">
+           <a href="#"><i class="fab fa-facebook-f"></i></a>
+           <a href="#"><i class="fab fa-twitter"></i></a>
+           <a href="#"><i class="fab fa-linkedin-in"></i></a>
+           <a href="#"><i class="fab fa-youtube"></i></a>
+         </div>
+        </div>
+        <div class="footer-wrapper">
+          <h4>Explore</h4>
+          <a href="#">Top Companies</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Podcast</a>
+          <a href="#">Careers</a>
+        </div>
+        <div class="footer-wrapper">
+          <h4>About</h4>
+          <a href="#">FAQ</a>
+          <a href="#">Get Inspired</a>
+          <a href="#">Blog</a>
+          </div>
+          <div class="footer-wrapper">
+            <h4>Support</h4>
+            <a href="#">Customer Service</a>
+            <a href="#">Trust & Safety</a>
+            <a href="#">Partnership</a>
+          </div>
+          <div class="footer-wrapper">
+            <h4>Community</h4>
+            <a href="#">Community</a>
+            <a href="#">Invite a Friend</a>
+            <a href="#">Event</a>
+          </div>
+         
+      </footer>
+      <!-- footer ends -->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

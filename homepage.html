@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>JobSphere- Job Portal Website</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap" rel="stylesheet">
+    
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+ <body>
+   
+
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar Start -->
+        <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+            <a href="index.html" class="navbar-brand d-flex align-items-center text-center py-0 px-4 px-lg-5">
+                <h1 class="m-0 text-primary">Job<span>Sphere</span></h1>
+            </a>
+            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-4 p-lg-0">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <div class="nav-item dropdown">
+                        <a href="job-list.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Jobs</a>
+                        <div class="dropdown-menu rounded-0 m-0">
+                            <a href="job-list.html" class="dropdown-item">Job List</a>
+                            <a href="job-detail.html" class="dropdown-item">Job Detail</a>
+                        </div>
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a href="category.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                        <div class="dropdown-menu rounded-0 m-0">
+                            <a href="category.html" class="dropdown-item">Job Category</a>
+                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+                <a href="resume.html" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Build a resume<i class="fa fa-arrow-right ms-3"></i></a>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+
+        <!-- Carousel Start -->
+        <div class="container-fluid p-0">
+            <div class="owl-carousel header-carousel position-relative">
+                <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="https://thumbs.dreamstime.com/b/text-sign-showing-re-hiring-conceptual-photo-advertising-employment-workforce-placement-new-job-woman-wear-formal-business-159048722.jpg" alt="">
+                    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(43, 57, 64, .5);">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-10 col-lg-8">
+                                    <h1 class="display-3 text-white animated slideInDown mb-4">Your Gateway to the Perfect Job and Top Talent</h1>
+                                    <p class="fs-5 fw-medium text-white mb-4 pb-2">Discover your dream job or find the ideal candidate with our streamlined job portal. Whether you’re looking for a new opportunity or seeking top-tier talent, we connect the right people to the right roles with ease and efficiency.</p>
+                                    <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Search A Job</a>
+                                    <a href="" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Find A Talent</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="https://thumbs.dreamstime.com/b/text-sign-showing-re-hiring-conceptual-photo-advertising-employment-workforce-placement-new-job-woman-wear-formal-business-159048722.jpg" alt="">
+                    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(43, 57, 64, .5);">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-10 col-lg-8">
+                                    <h1 class="display-3 text-white animated slideInDown mb-4">Your Gateway to the Perfect Job and Top Talent</h1>
+                                    <p class="fs-5 fw-medium text-white mb-4 pb-2">Discover your dream job or find the ideal candidate with our streamlined job portal. Whether you’re looking for a new opportunity or seeking top-tier talent, we connect the right people to the right roles with ease and efficiency.</p>
+                                    <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Search A Job</a>
+                                    <a href="" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Find A Talent</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="https://media.licdn.com/dms/image/C4D12AQFi4yZvoIWupw/article-cover_image-shrink_720_1280/0/1520245690181?e=2147483647&v=beta&t=tKYwNZxeVVDIwUTZXxVbb0A9oxl2ZK0iVEOiPYOwGE4" alt="">
+                    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(43, 57, 64, .5);">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-10 col-lg-8">
+                                    <h1 class="display-3 text-white animated slideInDown mb-4">Your Gateway to the Perfect Job and Top Talent</h1>
+                                    <p class="fs-5 fw-medium text-white mb-4 pb-2">Discover your dream job or find the ideal candidate with our streamlined job portal. Whether you’re looking for a new opportunity or seeking top-tier talent, we connect the right people to the right roles with ease and efficiency.</p>
+                                    <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Search A Job</a>
+                                    <a href="" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Find A Talent</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="https://aithority.com/wp-content/uploads/2020/07/CPS-NETWORK-launches-new-job-portal-website-for-professional-membership-organizations.jpg" alt="">
+                    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(43, 57, 64, .5);">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-10 col-lg-8">
+                                    <h1 class="display-3 text-white animated slideInDown mb-4">Your Gateway to the Perfect Job and Top Talent</h1>
+                                    <p class="fs-5 fw-medium text-white mb-4 pb-2">Discover your dream job or find the ideal candidate with our streamlined job portal. Whether you’re looking for a new opportunity or seeking top-tier talent, we connect the right people to the right roles with ease and efficiency.</p>
+                                    <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Search A Job</a>
+                                    <a href="" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Find A Talent</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Search Start -->
+        <div class="container-fluid bg-primary mb-5 wow fadeIn" data-wow-delay="0.1s" style="padding: 35px;">
+            <div class="container">
+                <div class="row g-2">
+                    <div class="col-md-10">
+                        <div class="row g-2">
+                            <div class="col-md-4">
+                                <input type="text" class="form-control border-0" placeholder="Keyword" />
+                            </div>
+                            <div class="col-md-4">
+                                <select class="form-select border-0">
+                                    <option selected>Category</option>
+                                    <option value="1">technnical</option>
+                                    <option value="2">non-technical</option>
+                                    <option value="3">tester</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4">
+                                <select class="form-select border-0">
+                                    <option selected>Location</option>
+                                    <option value="1">new york </option>
+                                    <option value="2">los angles</option>
+                                    <option value="3">mexico</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <button class="btn btn-dark border-0 w-100">Search</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Search End -->
+
+
+        <!-- Category Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <h1 class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">Category</h1>
+                <div class="row g-4">
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <a class="cat-item rounded p-4" href="">
+                            <i class="fa fa-3x fa-mail-bulk text-primary mb-4"></i>
+                            <h6 class="mb-3">Marketing</h6>
+                            <p class="mb-0">23 Vacancy</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <a class="cat-item rounded p-4" href="">
+                            <i class="fa fa-3x fa-headset text-primary mb-4"></i>
+                            <h6 class="mb-3">Customer Service</h6>
+                            <p class="mb-0">13 Vacancy</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <a class="cat-item rounded p-4" href="">
+                            <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>
+                            <h6 class="mb-3">Human Resource</h6>
+                            <p class="mb-0">90 Vacancy</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <a class="cat-item rounded p-4" href="">
+                            <i class="fa fa-3x fa-tasks text-primary mb-4"></i>
+                            <h6 class="mb-3">Project Management</h6>
+                            <p class="mb-0">56 Vacancy</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <a class="cat-item rounded p-4" href="">
+                            <i class="fa fa-3x fa-chart-line text-primary mb-4"></i>
+                            <h6 class="mb-3">Business Development</h6>
+                            <p class="mb-0">50 Vacancy</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <a class="cat-item rounded p-4" href="">
+                            <i class="fa fa-3x fa-hands-helping text-primary mb-4"></i>
+                            <h6 class="mb-3">Sales & Communication</h6>
+                            <p class="mb-0">1 Vacancy</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <a class="cat-item rounded p-4" href="">
+                            <i class="fa fa-3x fa-book-reader text-primary mb-4"></i>
+                            <h6 class="mb-3">Teaching & Education</h6>
+                            <p class="mb-0">40 Vacancy</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <a class="cat-item rounded p-4" href="">
+                            <i class="fa fa-3x fa-drafting-compass text-primary mb-4"></i>
+                            <h6 class="mb-3">Design & Creative</h6>
+                            <p class="mb-0">120 Vacancy</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Category End -->
+
+
+         <!-- About Start -->
+         <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="row g-0 about-bg rounded overflow-hidden">
+                            <div class="col-6 text-start">
+                                <img class="img-fluid w-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp9KR-lNrACpfPuYs4S2fiE4i_RBV3iOmVrSm7xSS_OAdvi7EZJdc7qkQUE8hL1tra8KQ&usqp=CAU">
+                            </div>
+                            <div class="col-6 text-start">
+                                <img class="img-fluid" src="https://media.istockphoto.com/id/1349094945/photo/human-using-a-computer-laptop-for-searching-for-job-and-fill-out-personal-data-on-job-website.jpg?s=612x612&w=0&k=20&c=nVCY302pin29eP1rN0eBGstQN3WF4YQTWvZ4TvAs21g=" style="width: 85%; margin-top: 15%;">
+                            </div>
+                            <div class="col-6 text-end">
+                                <img class="img-fluid" src="https://media.istockphoto.com/id/1097271132/photo/group-of-unrecognizable-candidates-waiting-for-a-job-interview.jpg?s=612x612&w=0&k=20&c=y6lP7VvRZR_Etbsz5SeHQ6rpJw3CPMUs0mnaELaqYxY=" style="width: 85%;">
+                            </div>
+                            <div class="col-6 text-end">
+                                <img class="img-fluid w-100" src="https://media.istockphoto.com/id/949182974/photo/male-manager-shaking-hands-with-female-applicant.jpg?s=612x612&w=0&k=20&c=QCjfJPKUckGpX9FdZU-8bw2szQuxa2_CPATyCBAazWM=">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                        <h1 class="mb-4">Bridging the gap between skilled professionals and their ideal careers.</h1>
+                        <p class="mb-4">We connect skilled professionals with career opportunities that match their talents and goals. Our platform bridges the gap between top talent and companies looking for the perfect fit. Simplifying job searches and talent acquisition for lasting success.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+
+        <!-- Jobs Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <h1 class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">Job Listing</h1>
+                <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.3s">
+                    <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5">
+                    <div class="tab-content">
+                        <div id="tab-1" class="tab-pane fade show p-0 active">
+                            <div class="job-item p-4 mb-4">
+                                <div class="row g-4">
+                                    <div class="col-sm-12 col-md-8 d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid border rounded" src="data:image/png;base64,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" alt="" style="width: 80px; height: 80px;">
+                                        <div class="text-start ps-4">
+                                            <h5 class="mb-3">Front-end Web Developer</h5>
+                                            <span class="text-truncate me-3"><i class="fa fa-map-marker-alt text-primary me-2"></i>Visakhapatnam, Andhra Pradesh</span>
+                                            <span class="text-truncate me-3"><i class="far fa-clock text-primary me-2"></i>Full Time</span>
+                                            <span class="text-truncate me-0"><i class="far fa-money-bill-alt text-primary me-2"></i>$123 - $456</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 d-flex flex-column align-items-start align-items-md-end justify-content-center">
+                                        <div class="d-flex mb-3">
+                                         <!--   <a class="btn btn-light btn-square me-3" href=""><i class="far fa-heart text-primary"></i></a>-->
+                                            <a class="btn btn-primary" href="">Apply Now</a>
+                                        </div>
+                                        <small class="text-truncate"><i class="far fa-calendar-alt text-primary me-2"></i>Date Line: 05 Jan, 2025</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="job-item p-4 mb-4">
+                                <div class="row g-4">
+                                    <div class="col-sm-12 col-md-8 d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid border rounded" src="https://nuevesolutions.com/wp-content/uploads/2019/09/nuevesolutions_logo.png" alt="" style="width: 80px; height: 80px;">
+                                        <div class="text-start ps-4">
+                                            <h5 class="mb-3">Senior Python Developer</h5>
+                                            <span class="text-truncate me-3"><i class="fa fa-map-marker-alt text-primary me-2"></i>New York, USA</span>
+                                            <span class="text-truncate me-3"><i class="far fa-clock text-primary me-2"></i>Part Time</span>
+                                            <span class="text-truncate me-0"><i class="far fa-money-bill-alt text-primary me-2"></i>$123 - $456</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 d-flex flex-column align-items-start align-items-md-end justify-content-center">
+                                        <div class="d-flex mb-3">
+                                           <!-- <a class="btn btn-light btn-square me-3" href=""><i class="far fa-heart text-primary"></i></a>-->
+                                            <a class="btn btn-primary" href="">Apply Now</a>
+                                        </div>
+                                        <small class="text-truncate"><i class="far fa-calendar-alt text-primary me-2"></i>Date Line: 20 Feb, 2026</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="job-item p-4 mb-4">
+                                <div class="row g-4">
+                                    <div class="col-sm-12 col-md-8 d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid border rounded" src="img/com-logo-3.jpg" alt="" style="width: 80px; height: 80px;">
+                                        <div class="text-start ps-4">
+                                            <h5 class="mb-3">Product Designer</h5>
+                                            <span class="text-truncate me-3"><i class="fa fa-map-marker-alt text-primary me-2"></i>New York, USA</span>
+                                            <span class="text-truncate me-3"><i class="far fa-clock text-primary me-2"></i>Part Time</span>
+                                            <span class="text-truncate me-0"><i class="far fa-money-bill-alt text-primary me-2"></i>$120 - $450</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 d-flex flex-column align-items-start align-items-md-end justify-content-center">
+                                        <div class="d-flex mb-3">
+                                       <!--     <a class="btn btn-light btn-square me-3" href=""><i class="far fa-heart text-primary"></i></a>-->
+                                            <a class="btn btn-primary" href="">Apply Now</a>
+                                        </div>
+                                        <small class="text-truncate"><i class="far fa-calendar-alt text-primary me-2"></i>Date Line: 15 Apr, 2028</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="job-item p-4 mb-4">
+                                <div class="row g-4">
+                                    <div class="col-sm-12 col-md-8 d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid border rounded" src="img/com-logo-4.jpg" alt="" style="width: 80px; height: 80px;">
+                                        <div class="text-start ps-4">
+                                            <h5 class="mb-3">Creative Director</h5>
+                                            <span class="text-truncate me-3"><i class="fa fa-map-marker-alt text-primary me-2"></i>New York, USA</span>
+                                            <span class="text-truncate me-3"><i class="far fa-clock text-primary me-2"></i>Full Time</span>
+                                            <span class="text-truncate me-0"><i class="far fa-money-bill-alt text-primary me-2"></i>$350 - $660</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 d-flex flex-column align-items-start align-items-md-end justify-content-center">
+                                        <div class="d-flex mb-3">
+                                       <!--     <a class="btn btn-light btn-square me-3" href=""><i class="far fa-heart text-primary"></i></a>-->
+                                            <a class="btn btn-primary" href="">Apply Now</a>
+                                        </div>
+                                        <small class="text-truncate"><i class="far fa-calendar-alt text-primary me-2"></i>Date Line: 05 Mar, 2026</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="job-item p-4 mb-4">
+                                <div class="row g-4">
+                                    <div class="col-sm-12 col-md-8 d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid border rounded" src="data:image/jpeg;base64,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" alt="" style="width: 80px; height: 80px;">
+                                        <div class="text-start ps-4">
+                                            <h5 class="mb-3">iOS Developer</h5>
+                                            <span class="text-truncate me-3"><i class="fa fa-map-marker-alt text-primary me-2"></i>New York, USA</span>
+                                            <span class="text-truncate me-3"><i class="far fa-clock text-primary me-2"></i>Part Time</span>
+                                            <span class="text-truncate me-0"><i class="far fa-money-bill-alt text-primary me-2"></i>$120 - $220</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 d-flex flex-column align-items-start align-items-md-end justify-content-center">
+                                        <div class="d-flex mb-3">
+                                         <!--  <a class="btn btn-light btn-square me-3" href=""><i class="far fa-heart text-primary"></i></a>-->
+                                            <a class="btn btn-primary" href="">Apply Now</a>
+                                        </div>
+                                        <small class="text-truncate"><i class="far fa-calendar-alt text-primary me-2"></i>Date Line: 22 Sep, 2024</small>
+                                    </div>
+                                </div>
+                            </div>
+                      <!--      <a class="btn btn-primary py-3 px-5" href="">Browse More Jobs</a>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Jobs End -->
+
+
+          <!-- Testimonial start -->
+          <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container">
+                <h1 class="text-center mb-5">Reviews</h1>
+                <div class="owl-carousel testimonial-carousel">
+                    <div class="testimonial-item bg-light rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p>  I was struggling to find the right candidates for my marketing team until I found this job portal. The site is user-friendly, and I was able to filter applicants based on my exact needs. We hired two exceptional marketers within weeks, and they’ve already made a significant impact on our business.</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded" src="https://img.freepik.com/free-photo/confident-handsome-guy-posing-against-white-wall_176420-32936.jpg?t=st=1724865131~exp=1724868731~hmac=a7631f1ddafc9e1eda48aba010d12b6a8609531ce9c3130c7b7e948c7250aa4c&w=996" style="width: 50px; height: 50px;">
+                            <div class="ps-3">
+                                <h5 class="mb-1">John S.</h5>
+                                <small>Marketing Manager</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-light rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p> As a software engineer, I’m constantly on the lookout for new opportunities. This job portal has been a game-changer for me. The site’s algorithm matched me with jobs that fit my skills perfectly, and the application process was seamless. I landed my dream job within a month!"
+                        </p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded" src="https://img.freepik.com/free-photo/cheerful-curly-business-girl-wearing-glasses_176420-206.jpg?w=996&t=st=1724865193~exp=1724865793~hmac=5f7ba959a8816ae908ea6bafc2714a0ed73ef44a13873c2b4a26f2c731bbaedf" style="width: 50px; height: 50px;">
+                            <div class="ps-3">
+                                <h5 class="mb-1">Emma R.</h5>
+                                <small>Software Engineer</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-light rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p> I’ve used several job portals, but this one stands out because of its detailed applicant profiles and the ease of managing job postings. It has made my job as an HR specialist much easier, and I’ve been able to connect with high-quality candidates quickly.</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded" src="https://img.freepik.com/premium-photo/man-with-glasses-gray-suit-with-white-shirt-gray-jacket_1308157-214466.jpg?w=740" style="width: 50px; height: 50px;">
+                            <div class="ps-3">
+                                <h5 class="mb-1">Michael T.</h5>
+                                <small>HR Specialist</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-light rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p>Job hunting can be overwhelming, but this portal made the process straightforward. I appreciated the personalized job recommendations and the ability to track my application status. Thanks to this site, I’m now working with a fantastic company that values my expertise.</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded" src="https://img.freepik.com/premium-photo/perfect-man-portrait-happy-fashionable-handsome-man_1109459-2912.jpg?w=740" style="width: 50px; height: 50px;">
+                            <div class="ps-3">
+                                <h5 class="mb-1">David K.</h5>
+                                <small>Data Scientist</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+    <!-- footer starts -->
+    <footer>
+        <div class="footer-wrapper">
+         <h3>JOBSPHERE</h3>
+         <p>An online platform where job seekers can find and apply for jobs while employers can post vacancies and search for candidates.</p>
+         <div class="social-media">
+           <a href="#"><i class="fab fa-facebook-f"></i></a>
+           <a href="#"><i class="fab fa-twitter"></i></a>
+           <a href="#"><i class="fab fa-linkedin-in"></i></a>
+           <a href="#"><i class="fab fa-youtube"></i></a>
+         </div>
+        </div>
+        <div class="footer-wrapper">
+          <h4>Explore</h4>
+          <a href="#">Top Companies</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Podcast</a>
+          <a href="#">Careers</a>
+        </div>
+        <div class="footer-wrapper">
+          <h4>About</h4>
+          <a href="#">FAQ</a>
+          <a href="#">Get Inspired</a>
+          <a href="#">Blog</a>
+          </div>
+          <div class="footer-wrapper">
+            <h4>Support</h4>
+            <a href="#">Customer Service</a>
+            <a href="#">Trust & Safety</a>
+            <a href="#">Partnership</a>
+          </div>
+          <div class="footer-wrapper">
+            <h4>Community</h4>
+            <a href="#">Community</a>
+            <a href="#">Invite a Friend</a>
+            <a href="#">Event</a>
+          </div>
+         
+      </footer>
+      <!-- footer ends -->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+        
+        // Fetch and insert the external HTML content into the container
+        fetch('homepage.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('container').innerHTML = data;
+            })
+            .catch(error => console.error('Error fetching the HTML file:', error));
+    </script>
+
+<script type="module" src="./homepage.js"></script>
+</body>
+
+</html>
+
+
